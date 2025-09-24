@@ -1,0 +1,1 @@
+import java.util.*;public class Main{    public static void main(String[] args)    {        Scanner sc = new Scanner(System.in);        long n = sc.nextLong();        long m = sc.nextLong();        long a = sc.nextLong();        System.out.println((long) (Math.ceil(n / (a + 0.0)) * Math.ceil(m / (a + 0.0))));    }}
